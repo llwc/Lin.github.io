@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>HW2 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="2.9 bSince we know that$$P(\cup_{i=1}^n A_i)=\sum_{k=1}^nP(A_k\cap A_{k-1}^C\cap \cdots\cap A_1^C)$$Then we know that$$P(A_k\cap A_{k-1}^C\cap \cdots\cap A_1^C)=P(A_k)-P(A_k\cap (\cap_{i=1}^{k-1}A_i^C">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HW2">
+<meta property="og:url" content="http://yoursite.com/2019/03/10/template/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="2.9 bSince we know that$$P(\cup_{i=1}^n A_i)=\sum_{k=1}^nP(A_k\cap A_{k-1}^C\cap \cdots\cap A_1^C)$$Then we know that$$P(A_k\cap A_{k-1}^C\cap \cdots\cap A_1^C)=P(A_k)-P(A_k\cap (\cap_{i=1}^{k-1}A_i^C">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-03-10T14:23:18.177Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="HW2">
+<meta name="twitter:description" content="2.9 bSince we know that$$P(\cup_{i=1}^n A_i)=\sum_{k=1}^nP(A_k\cap A_{k-1}^C\cap \cdots\cap A_1^C)$$Then we know that$$P(A_k\cap A_{k-1}^C\cap \cdots\cap A_1^C)=P(A_k)-P(A_k\cap (\cap_{i=1}^{k-1}A_i^C">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-template" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/03/10/template/" class="article-date">
+  <time datetime="2019-03-10T14:23:18.170Z" itemprop="datePublished">2019-03-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      HW2
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="2-9-b"><a href="#2-9-b" class="headerlink" title="2.9 b"></a>2.9 b</h1><p>Since we know that<br>$$P(\cup_{i=1}^n A_i)=\sum_{k=1}^nP(A_k\cap A_{k-1}^C\cap \cdots\cap A_1^C)$$<br>Then we know that<br>$$P(A_k\cap A_{k-1}^C\cap \cdots\cap A_1^C)=P(A_k)-P(A_k\cap (\cap_{i=1}^{k-1}A_i^C)^C)=P(A_k)-P(A_k)\cap(\cup_{i=1}^{k-1}A_i)$$<br>$$=P(A_k)-P(\cup_{i=1}^{k-1}(A_k\cap A_i))$$ From last problem, we have<br>that<br>$$P(\cup_{i=1}^n A_i)\geq \sum_{i=1}^n P(A_i)-\sum_{i&lt;j}P(A_i\cap A_j)$$<br>Then we apply to $P(\cup_{i=1}^{k-1}(A_k\cap A_i))$ get<br>$$P(\cup_{i=1}^{k-1}(A_k\cap A_i))\geq \sum_{i=1}^{k-1}P(A_k\cap A_i)-\sum_{i&lt;j}P((A_k\cap A_i)\cap(A_k\cap A_j))=\sum_{i=1}^{k-1}P(A_k\cap A_i)-\sum_{i&lt;j}P(A_k\cap A_i\cap A_j)$$<br>Then we get<br>$$P(\cup_{i=1}^n A_i)=\sum_{k=1}^nP(A_k\cap A_{k-1}^C\cap \cdots\cap A_1^C)=\sum_{i=1}^n(P(A_k)-P(\cup_{i=1}^{k-1}(A_k\cap A_i)))$$<br>$$\leq \sum_{k=1}^n(P(A_k)-(\sum_{i=1}^{k-1}P(A_k\cap A_i)-\sum_{i&lt;j}P(A_k\cap A_i\cap A_j)))=\sum_{i=1}^nP(A_i)-\sum_{i&lt;j}P(A_i\cap A_j)+\sum_{i&lt;j&lt;k}P(A_i\cap A_j\cap A_k)$$<br>Then we done.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/03/10/template/" data-id="cjt30czx90004v1siobtgkzwi" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/03/10/practice/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/03/10/BlogPractice/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">practiceBlog</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/03/10/practice/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/03/10/template/">HW2</a>
+          </li>
+        
+          <li>
+            <a href="/2019/03/10/BlogPractice/">practiceBlog</a>
+          </li>
+        
+          <li>
+            <a href="/2019/03/09/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
